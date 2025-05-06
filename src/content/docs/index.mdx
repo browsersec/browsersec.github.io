@@ -1,36 +1,75 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to BrowserSec
+description: Open source browser security and detection & response solutions.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Securing browsers with open source detection and response solutions
   image:
-    file: ../../assets/houston.webp
+    file: https://api.iconify.design/mdi:security-network.svg?color=%230284c7&width=140&height=140
+    alt: BrowserSec security shield icon
   actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: KubeBrowse
+      link: https://browsersec.github.io/KubeBrowse
       icon: external
-      variant: minimal
+    - text: Get Started
+      link: /guides/quick-start
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/browsersec
+      icon: github
+      variant: secondary
+    - text: Join our Discord
+      link: https://discord.gg/browsersec
+      icon: discord
+      variant: secondary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Browser Security Solutions
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Browser Detection" icon="magnifier">
+    Real-time browser fingerprinting and anomaly detection to identify suspicious activities and potential browser-based threats.
+  </Card>
+  <Card title="Threat Response" icon="warning">
+    Automated incident response workflows to contain and mitigate browser-based attacks before they compromise your systems.
+  </Card>
+  <Card title="KubeBrowse" icon="rocket">
+    Our Kubernetes orchestrator that mitigates phishing attacks from attachments through a secure browser-in-browser sandbox environment.
+  </Card>
+  <Card title="Open Source" icon="open-book">
+    Fully transparent, community-driven security tools that can be audited, extended, and improved by security researchers worldwide.
+  </Card>
+</CardGrid>
+
+## Why BrowserSec?
+
+<CardGrid>
+  <Card title="Advanced Detection" icon="approve-check">
+    Our detection engine identifies sophisticated browser-based attacks including zero-days, XSS, and supply chain compromises with minimal false positives.
+  </Card>
+  <Card title="Rapid Response" icon="rocket">
+    Automated containment actions deploy within milliseconds of threat detection, preventing data exfiltration and lateral movement.
+  </Card>
+  <Card title="Enterprise Ready" icon="setting">
+    Designed for scale with support for multi-tenant deployments, role-based access control, and comprehensive audit logging.
+  </Card>
+  <Card title="Community Powered" icon="discord">
+    Join our active community of security researchers and developers to collaborate on next-generation browser security tools.
+  </Card>
+</CardGrid>
+
+## Getting Started
+
+Secure your browsers today with our open source tools. Follow our [Quick Start](/guides/quick-start) guide or check out our [GitHub repository](https://github.com/browsersec) to get started.
+
+<CardGrid>
+  <Card title="Documentation" icon="document">
+    Comprehensive guides, API references, and examples to help you implement browser security in your organization.
+  </Card>
+  <Card title="Community Support" icon="discord">
+    Get help from our community of security experts and developers in our Discord server.
+  </Card>
 </CardGrid>

@@ -1,0 +1,12 @@
+/* Import Montserrat from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Apply Montserrat to all elements */
+:root {
+  --sl-font: 'Montserrat', sans-serif;
+  --sl-font-mono: monospace;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
