@@ -9,8 +9,7 @@ export default defineConfig({
 			title: 'BrowserSec',
 			description: 'Open source browser security and detection & response solutions',
 			// logo: {
-			// 	light: './src/assets/logo-light.svg',
-			// 	dark: './src/assets/logo-dark.svg',
+			// 	src: './src/assets/carbon_ibm-cloud-security-compliance-center.svg',
 			// },
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/browsersec' },
