@@ -15,7 +15,7 @@ export default defineConfig({
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/browsersec' },
 				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/FEGZkmjs' },
-				{ icon: 'twitter', label: 'Twitter', href: 'https://twitter.com/browsersec' },
+				{ icon: 'twitter', label: 'Twitter', href: 'https://twitter.com/browsersec_org' },
 			],
 			sidebar: [
 				{
