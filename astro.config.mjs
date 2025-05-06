@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'BrowserSec',
-			description: 'Open source browser security and detection & response solutions',
+			description: 'Open source browser detection & security response solutions',
 
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/browsersec' },
