@@ -8,9 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'BrowserSec',
 			description: 'Open source browser security and detection & response solutions',
-			// logo: {
-			// 	src: './src/assets/carbon_ibm-cloud-security-compliance-center.svg',
-			// },
+
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/browsersec' },
 				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/FEGZkmjs' },
