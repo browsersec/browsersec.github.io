@@ -1,0 +1,5 @@
+{
+  "name": "KubeBrowse",
+  "description": "A Kubernetes-Based Secure Browser Isolation Platform with Integrated Safe File Viewer and Phishing Mitigation",
+  "requestFramePermissions": []
+}
